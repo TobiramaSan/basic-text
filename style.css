@@ -1,0 +1,32 @@
+* {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: 0;
+}
+body {
+  background: #cfcfcf;
+  margin: 0;
+}
+.container {
+  /* display: flex; */
+  flex-direction: row;
+}
+div.text {
+  justify-content: space-between;
+  height: auto;
+  display: flex;
+  width: 900px;
+  box-sizing: border-box;
+  background: #888eee;
+}
+.messages {
+  background: #7981e7;
+  width: auto;
+  height: auto;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
